@@ -29,7 +29,7 @@
 
   * AMD
 ```sudo apt install libdrm-amdgpu1 xserver-xorg-video-amdgpu```
-```sudo apt install mesa-vulkan-drivers libvulkan1 vulkan-tools vulkan-validationlayers``
+```sudo apt install mesa-vulkan-drivers libvulkan1 vulkan-tools vulkan-validationlayers```
 		
 ## 5. FIRMWARE BROADCOM
 ```sudo apt install broadcom-sta-dkms broadcom-sta-common firmware-brcm80211 firmware-iwlwifi```
