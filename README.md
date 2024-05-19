@@ -24,7 +24,9 @@
 * NVIDIA
 
 ```sudo apt install nvidia-detect```
+
 ```sudo nvidia-detect```
+
 ```sudo apt install nvidia-driver nvidia-settings```
 
   * AMD
@@ -44,12 +46,15 @@
 	
 ## 7. MIKROKOD DO PROCESORÓW
 * INTEL
+
 ```sudo apt install intel-microcode```
 * AMD
+
 ```sudo apt install amd64-microcode```
 		
 ## 8. AUTOMAYCZNE WYSZUKIWANIE FIRMWARE
 ```sudo apt install isenkram-cli```
+
 ```sudo isenkram-autoinstall-firmware```
 
 ## 9. 32 BIT WINE
@@ -58,8 +63,11 @@
 ## 10. KODEKI
 ```sudo apt install ffmpeg ttf-mscorefonts-installer rar unrar libavcodec-extra```
 	
-12. GRUB
-	Czas uruchomienia 1 sekunda. Przy zmiennej quiet dać: spacja + splash.
+## 11. GRUB
+
+```sudo nano /etc/default/grub```
+
+ Czas uruchomienia 1 sekunda. Przy zmiennej quiet dać: spacja + splash.
 	
 13. LAPTOPY - ZARZĄDZANIE ENERGIĄ
 	sudo apt install tlp tlp-rdw
