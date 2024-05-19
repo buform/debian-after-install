@@ -107,8 +107,8 @@
 * xfce4-goodies
 	
 ## 14. DRUKARKA HP
- *hplip
- hplip-gui
+ * hplip
+ * hplip-gui
 	
 ## 15. WTYCZKI XFCE4
 * xfce4-cpufreq-plugin
