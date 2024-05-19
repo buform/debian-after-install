@@ -149,6 +149,8 @@
 ```sudo apt install software-properties-common -y```
 
 ```apt-add-repository contrib non-free```
+
+LUB
 		
 ```sudo vim /etc/apt/sources.list```
 
