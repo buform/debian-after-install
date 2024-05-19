@@ -1,18 +1,21 @@
 # STAN NA WERSJE: DEBIAN/GNU BOOKWORM 12 XFCE
 
 ## WAŻNE PLIKI
-* fstab					/etc/fstab
-* sources list				/etc/apt/sources.list
-* grub						/etc/default/grub
+* fstab
+```/etc/fstab```
+* sources list
+```/etc/apt/sources.list```
+* grub
+```/etc/default/grub```
 
 ## 1. AKTUALIZACJA I DEZAKTUALIZACJA
-	sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && udo apt autoremove -y && sudo apt install -y lsb-release
+```sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && udo apt autoremove -y && sudo apt install -y lsb-release```
 	
 ## 2. FIRMWARE LINUX
-	sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree
+```sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree``
 	
 ## 3. INNY FIRMWARE
-	sudo apt install firmware-realtek firmware-atheros
+```sudo apt install firmware-realtek firmware-atheros```
 	
 ## 4. STEROWNIKI KARTY GRAFICZNEJ
 
@@ -24,8 +27,8 @@
 ```sudo apt install libdrm-amdgpu1 xserver-xorg-video-amdgpu``
 ```sudo apt install mesa-vulkan-drivers libvulkan1 vulkan-tools vulkan-validationlayers``
 		
-6. FIRMWARE BROADCOM
-	sudo apt install broadcom-sta-dkms broadcom-sta-common firmware-brcm80211 firmware-iwlwifi
+## 6. FIRMWARE BROADCOM
+```sudo apt install broadcom-sta-dkms broadcom-sta-common firmware-brcm80211 firmware-iwlwifi```
 	
 7. BLUETOOTH
 	sudo apt install bluetooth bluez bluez-firmware bluez-cups bluez-tools firmware-iwlwifi blueman
