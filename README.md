@@ -71,7 +71,7 @@
 
 ```sudo nano /etc/default/grub```
 
- Czas uruchomienia 1 sekunda. Przy zmiennej quiet dać: spacja + splash.
+ Czas uruchomienia 1 sekunda. Przy zmiennej quiet dać ```splash```.
 	
 ## 12. LAPTOPY - ZARZĄDZANIE ENERGIĄ
 ```sudo apt install tlp tlp-rdw```
@@ -118,35 +118,41 @@
 * xfce4-battery-plugin
 * xfce4-power-plugin
 	
-17. WYGLĄD
-	papirus-icon-theme
-	orchis-gtk-theme
+## 16. WYGLĄD
+* papirus-icon-theme
+* orchis-gtk-theme
 	
-18. FLATPAK
-	sudo apt install flatpak
-	flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-	
-19. ARDUINO BRAK ZEZWOLENIA NA PORT
-	sudo usermod -a -G dialout <username>
-	
-20. LIBREOFFICE
-	sudo apt install libreoffice lsb-release libreoffice-style* libreoffice-gtk3 libreoffice-l10n-pl libreoffice-help-pl hunspell-pl
-	
-21. USUWANIE PROGRAMÓW
-	sudo apt remove libreoffice-*
-	sudo apt remove xarchiver exfalso quodlibet
-	
-22. KOMENDY APT USUWANIE
-	sudo apt remove
-	sudo apt autoremove
-	sudo apt autoclean
-	
-23. DODANIE REPOZYTORIUM NON-FREE I CONTRIB
-		sudo apt install software-properties-common -y
-		apt-add-repository contrib non-free
-		
-		sudo vim /etc/apt/sources.list
-		CONTRIB i NON-FREE do każdego
+# 17. FLATPAK
+```sudo apt install flatpak```
 
-24. ŚRODOWISKO GRAFICZNE XFCE4
-	sudo apt install xfce4 lightdm
+```flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo```
+	
+## 18. ARDUINO BRAK ZEZWOLENIA NA PORT
+```sudo usermod -a -G dialout username```
+	
+## 19. LIBREOFFICE
+```sudo apt install libreoffice lsb-release libreoffice-style* libreoffice-gtk3 libreoffice-l10n-pl libreoffice-help-pl hunspell-pl myspell-pl```
+	
+## 20. USUWANIE PROGRAMÓW
+```sudo apt remove libreoffice-*```
+
+```sudo apt remove exfalso quodlibet```
+	
+## 21. KOMENDY APT USUWANIE
+```sudo apt remove```
+
+```sudo apt autoremove```
+
+```sudo apt autoclean```
+	
+## 22. DODANIE REPOZYTORIUM NON-FREE I CONTRIB
+```sudo apt install software-properties-common -y```
+
+```apt-add-repository contrib non-free```
+		
+```sudo vim /etc/apt/sources.list```
+
+CONTRIB i NON-FREE do każdego
+
+## 23. ŚRODOWISKO GRAFICZNE XFCE4
+```sudo apt install xfce4 lightdm```
