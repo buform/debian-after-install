@@ -12,7 +12,7 @@
 ```sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && udo apt autoremove -y && sudo apt install -y lsb-release```
 	
 ## 2. FIRMWARE LINUX
-```sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree``
+```sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree```
 	
 ## 3. INNY FIRMWARE
 ```sudo apt install firmware-realtek firmware-atheros```
