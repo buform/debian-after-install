@@ -2,10 +2,13 @@
 
 ## WAŻNE PLIKI
 * fstab
+
 ```/etc/fstab```
 * sources list
+
 ```/etc/apt/sources.list```
 * grub
+
 ```/etc/default/grub```
 
 ## 1. AKTUALIZACJA I DEZAKTUALIZACJA
