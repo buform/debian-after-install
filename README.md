@@ -40,14 +40,18 @@
 	
 ## 6. BLUETOOTH
 ```sudo apt install bluetooth bluez bluez-firmware bluez-cups bluez-tools firmware-iwlwifi blueman```
+
 ```sudo systemctl enable bluetooth```
+
 ```sudo systemctl start bluetooth```
+
 ```sudo vim /etc/bluetooth/main.conf```
 	
 ## 7. MIKROKOD DO PROCESORÓW
 * INTEL
 
 ```sudo apt install intel-microcode```
+
 * AMD
 
 ```sudo apt install amd64-microcode```
@@ -69,25 +73,50 @@
 
  Czas uruchomienia 1 sekunda. Przy zmiennej quiet dać: spacja + splash.
 	
-13. LAPTOPY - ZARZĄDZANIE ENERGIĄ
-	sudo apt install tlp tlp-rdw
-	sudo tlp start
+## 12. LAPTOPY - ZARZĄDZANIE ENERGIĄ
+```sudo apt install tlp tlp-rdw```
+
+```sudo tlp start```
 	
-14. DODATKOWE PACZKI I PROGRAMY
-	inxi neofetch mc git bpytop bat lightdm-gtk-greeter-settings mugshot gufw menulibre cmatrix gvfs-backends cifs-utils fonts-noto-color-emoji
-	thunar-archive-plugin redshift-gtk htop engrampa eom mpv audacious mpv krita geany kolourpaint net-tools wireless-tools atril
-	xfce4-goodies
+## 13. DODATKOWE PACZKI I PROGRAMY
+* inxi
+* neofetch
+* mc
+* git
+* bpytop
+* bat
+* lightdm-gtk-greeter-settings
+* mugshot
+* gufw
+* menulibre
+* cmatrix
+* gvfs-backends
+* cifs-utils
+* fonts-noto-color-emoji
+* thunar-archive-plugin
+* redshift-gtk
+* htop engrampa
+* eom
+* mpv
+* audacious
+* krita
+* geany
+* kolourpaint
+* net-tools
+* wireless-tools atril
+* xfce4-goodies
 	
-15. DRUKARKA HP
-	hplip hplip-gui
+## 14. DRUKARKA HP
+ *hplip
+ hplip-gui
 	
-16. WTYCZKI XFCE4
-	xfce4-cpufreq-plugin
-	xfce4-cpugraph-plugin
-	xfce4-sensors-plugin
-	xfce4-systemload-plugin
-	xfce4-battery-plugin
-	xfce4-power-plugin
+## 15. WTYCZKI XFCE4
+* xfce4-cpufreq-plugin
+* xfce4-cpugraph-plugin
+* xfce4-sensors-plugin
+* xfce4-systemload-plugin
+* xfce4-battery-plugin
+* xfce4-power-plugin
 	
 17. WYGLĄD
 	papirus-icon-theme
