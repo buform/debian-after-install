@@ -1,2 +1,1 @@
-# debian-after-install
-Debian/GNU to do after installaton
+# STAN NA WERSJE: DEBIAN/GNU BOOKWORM 12 XFCE
