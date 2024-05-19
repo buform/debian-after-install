@@ -158,3 +158,19 @@ CONTRIB i NON-FREE do każdego
 
 ## 23. ŚRODOWISKO GRAFICZNE XFCE4
 ```sudo apt install xfce4 lightdm```
+
+## 24. REDSHIFT CONFIG FILE
+```
+[redshift]
+temp-day=5000
+temp-night=4000
+;gamma=0.8:0.7:0.8
+gamma=1.000:1.000:1.000
+location-provider=manual
+adjustment-method=vidmode
+;brightness=1.0:0.5
+
+[manual]
+lat=44.9
+lon=-0.70
+```
