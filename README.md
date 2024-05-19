@@ -28,6 +28,7 @@
 ```sudo apt install nvidia-driver nvidia-settings```
 
   * AMD
+
 ```sudo apt install libdrm-amdgpu1 xserver-xorg-video-amdgpu```
 ```sudo apt install mesa-vulkan-drivers libvulkan1 vulkan-tools vulkan-validationlayers```
 		
