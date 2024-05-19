@@ -19,7 +19,7 @@
 	
 ## 4. STEROWNIKI KARTY GRAFICZNEJ
 * NVIDIA
-* 
+
 ```sudo apt install nvidia-detect```
 ```sudo nvidia-detect```
 ```sudo apt install nvidia-driver nvidia-settings```
