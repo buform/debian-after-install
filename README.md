@@ -56,12 +56,12 @@
 
 ```sudo apt install amd64-microcode```
 		
-## 8. AUTOMAYCZNE WYSZUKIWANIE FIRMWARE
+## 8. AUTOMATYCZNE WYSZUKIWANIE FIRMWARE
 ```sudo apt install isenkram-cli```
 
 ```sudo isenkram-autoinstall-firmware```
 
-## 9. 32 BIT WINE
+## 9. 32-BIT WINE
 ```sudo dpkg --add-architecture i386```
 	
 ## 10. KODEKI
@@ -122,7 +122,7 @@
 * papirus-icon-theme
 * orchis-gtk-theme
 	
-# 17. FLATPAK
+## 17. FLATPAK
 ```sudo apt install flatpak```
 
 ```flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo```
@@ -150,7 +150,7 @@
 
 ```apt-add-repository contrib non-free```
 
-LUB
+**LUB**
 		
 ```sudo vim /etc/apt/sources.list```
 
