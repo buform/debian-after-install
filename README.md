@@ -12,7 +12,7 @@
 ```/etc/default/grub```
 
 ## 1. AKTUALIZACJA I DEZAKTUALIZACJA
-```sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && udo apt autoremove -y && sudo apt install -y lsb-release```
+```sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y && sudo apt install -y lsb-release```
 	
 ## 2. FIRMWARE LINUX
 ```sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree```
@@ -65,7 +65,7 @@
 ```sudo dpkg --add-architecture i386```
 	
 ## 10. KODEKI
-```sudo apt install ffmpeg ttf-mscorefonts-installer rar unrar libavcodec-extra```
+```sudo apt install ffmpeg rar unrar libavcodec-extra```
 	
 ## 11. GRUB
 
