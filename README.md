@@ -154,7 +154,7 @@
 		
 ```sudo vim /etc/apt/sources.list```
 
-CONTRIB i NON-FREE do każdego
+**CONTRIB** i **NON-FREE** do każdego
 
 ## 23. ŚRODOWISKO GRAFICZNE XFCE4
 ```sudo apt install xfce4 lightdm```
