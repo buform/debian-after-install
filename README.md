@@ -65,7 +65,7 @@
 ```sudo dpkg --add-architecture i386```
 	
 ## 10. KODEKI
-```sudo apt install ffmpeg rar unrar libavcodec-extra```
+```sudo apt install ffmpeg rar unrar libavcodec-extra ttf-mscorefonts-installer```
 	
 ## 11. GRUB
 
