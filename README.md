@@ -69,7 +69,7 @@
 * rar
 * unrar
 * libavcodec-extra
-* ttf-mscorefonts-installe
+* ttf-mscorefonts-installer
 	
 ## 11. GRUB
 
