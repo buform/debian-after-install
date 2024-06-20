@@ -65,16 +65,24 @@
 ```sudo dpkg --add-architecture i386```
 	
 ## 10. KODEKI
-```sudo apt install ffmpeg rar unrar libavcodec-extra ttf-mscorefonts-installer```
+* ffmpeg
+* rar
+* unrar
+* libavcodec-extra
+* ttf-mscorefonts-installe
 	
 ## 11. GRUB
 
 ```sudo nano /etc/default/grub```
 
  Czas uruchomienia 1 sekunda. Przy zmiennej quiet dać ```splash```.
+
+ ```sudo update grub```
 	
 ## 12. LAPTOPY - ZARZĄDZANIE ENERGIĄ
 ```sudo apt install tlp tlp-rdw```
+
+```sudo tlp start```
 
 ```sudo tlp start```
 	
@@ -103,14 +111,15 @@
 * geany
 * kolourpaint
 * net-tools
-* wireless-tools atril
+* wireless-tools
+* atril
 * xfce4-goodies
 	
-## 14. DRUKARKA HP
+## 14. DRUKARKA HP STEROWNIKI
  * hplip
  * hplip-gui
 	
-## 15. WTYCZKI XFCE4
+## 15. WTYCZKI XFCE4 (SĄ ZAWARTE W PAKIECIE ```xfce4-goodies```)
 * xfce4-cpufreq-plugin
 * xfce4-cpugraph-plugin
 * xfce4-sensors-plugin
@@ -125,12 +134,12 @@
 ## 17. FLATPAK
 ```sudo apt install flatpak```
 
-```flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo```
+```sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo```
 	
 ## 18. ARDUINO BRAK ZEZWOLENIA NA PORT
 ```sudo usermod -a -G dialout username```
 	
-## 19. LIBREOFFICE
+## 19. LIBREOFFICE INSTALACJA CAŁEGO PAKIETU
 ```sudo apt install libreoffice lsb-release libreoffice-style* libreoffice-gtk3 libreoffice-l10n-pl libreoffice-help-pl hunspell-pl myspell-pl```
 	
 ## 20. USUWANIE PROGRAMÓW
@@ -139,16 +148,16 @@
 ```sudo apt remove exfalso quodlibet```
 	
 ## 21. KOMENDY APT USUWANIE
-```sudo apt remove```
+```sudo apt remove package``` - usuwanie danego pakietu
 
-```sudo apt autoremove```
+```sudo apt autoremove``` - usuwanie nieużywanych pakietów
 
-```sudo apt autoclean```
+```sudo apt autoclean``` - czyszczenie po instalacji
 	
 ## 22. DODANIE REPOZYTORIUM NON-FREE I CONTRIB
 ```sudo apt install software-properties-common -y```
 
-```apt-add-repository contrib non-free```
+```sudo apt-add-repository contrib non-free```
 
 **LUB**
 		
