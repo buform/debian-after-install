@@ -54,7 +54,9 @@
 
 * AMD
 
-```sudo apt install amd64-microcode```
+```sh
+sudo apt install amd64-microcode
+```
 		
 ## 8. AUTOMATYCZNE WYSZUKIWANIE FIRMWARE
 ```sudo apt install isenkram-cli```
