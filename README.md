@@ -47,10 +47,12 @@
 
 ```sudo vim /etc/bluetooth/main.conf```
 	
-## 7. MIKROKOD DO PROCESORÓW
+## 7. MIKROKOD DO PROCESORÓW (SYSTEM AUTOMATYCZNIE INSTALUJE PODCZAS STANDARODWEJ INSTALACJI)
 * INTEL
 
-```sudo apt install intel-microcode```
+```sh
+sudo apt install intel-microcode
+```
 
 * AMD
 
@@ -59,12 +61,18 @@ sudo apt install amd64-microcode
 ```
 		
 ## 8. AUTOMATYCZNE WYSZUKIWANIE FIRMWARE
-```sudo apt install isenkram-cli```
+```sh
+sudo apt install isenkram-cli
+```
 
-```sudo isenkram-autoinstall-firmware```
+```sh
+sudo isenkram-autoinstall-firmware
+```
 
 ## 9. 32-BIT WINE
-```sudo dpkg --add-architecture i386```
+```sh
+sudo dpkg --add-architecture i386
+```
 	
 ## 10. KODEKI
 * ffmpeg
@@ -75,18 +83,28 @@ sudo apt install amd64-microcode
 	
 ## 11. GRUB
 
-```sudo nano /etc/default/grub```
+```sh
+sudo nano /etc/default/grub
+```
 
  Czas uruchomienia 1 sekunda. Przy zmiennej quiet dać ```splash```.
 
- ```sudo update grub```
+ ```sh
+ sudo update grub
+```
 	
 ## 12. LAPTOPY - ZARZĄDZANIE ENERGIĄ
-```sudo apt install tlp tlp-rdw```
+```sh
+sudo apt install tlp tlp-rdw
+```
 
-```sudo tlp start```
+```sh
+sudo tlp start
+```
 
-```sudo tlp start```
+```sh
+sudo tlp start
+```
 	
 ## 13. DODATKOWE PACZKI I PROGRAMY
 * inxi
@@ -134,20 +152,32 @@ sudo apt install amd64-microcode
 * orchis-gtk-theme
 	
 ## 17. FLATPAK
-```sudo apt install flatpak```
+```sh
+sudo apt install flatpak
+```
 
-```sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo```
+```sh
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
 	
 ## 18. ARDUINO BRAK ZEZWOLENIA NA PORT
-```sudo usermod -a -G dialout username```
+```sh
+sudo usermod -a -G dialout username
+```
 	
 ## 19. LIBREOFFICE INSTALACJA CAŁEGO PAKIETU
-```sudo apt install libreoffice lsb-release libreoffice-style* libreoffice-gtk3 libreoffice-l10n-pl libreoffice-help-pl hunspell-pl myspell-pl```
+```sh
+sudo apt install libreoffice lsb-release libreoffice-style* libreoffice-gtk3 libreoffice-l10n-pl libreoffice-help-pl hunspell-pl myspell-pl
+```
 	
 ## 20. USUWANIE PROGRAMÓW
-```sudo apt remove libreoffice-*```
+```sh
+sudo apt remove libreoffice-*
+```
 
-```sudo apt remove exfalso quodlibet```
+```sh
+sudo apt remove exfalso quodlibet
+```
 	
 ## 21. KOMENDY APT USUWANIE
 ```sudo apt remove package``` - usuwanie danego pakietu
@@ -159,19 +189,25 @@ sudo apt install amd64-microcode
 ## 22. DODANIE REPOZYTORIUM NON-FREE I CONTRIB
 ```sudo apt install software-properties-common -y```
 
-```sudo apt-add-repository contrib non-free```
+```sh
+sudo apt-add-repository contrib non-free
+```
 
 **LUB**
 		
-```sudo vim /etc/apt/sources.list```
+```sh
+sudo vim /etc/apt/sources.list
+```
 
 **CONTRIB** i **NON-FREE** do każdego
 
 ## 23. ŚRODOWISKO GRAFICZNE XFCE4
-```sudo apt install xfce4 lightdm```
+```sh
+sudo apt install xfce4 lightdm
+```
 
 ## 24. REDSHIFT CONFIG FILE
-```
+```sh
 [redshift]
 temp-day=5000
 temp-night=4000
