@@ -185,3 +185,6 @@ adjustment-method=vidmode
 lat=44.9
 lon=-0.70
 ```
+
+## 25. WINE
+https://wine.htmlvalidator.com/install-wine-on-debian-12.html
