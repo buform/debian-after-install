@@ -104,11 +104,9 @@ sudo dpkg --add-architecture i386
 ```
 	
 ## 10. KODEKI
-* ffmpeg
-* rar
-* unrar
-* libavcodec-extra
-* ttf-mscorefonts-installer
+```sh
+sudo apt install ffmpeg rar unrar libavcodec-extra ttf-mscorefonts-installer
+```
 	
 ## 11. GRUB
 
@@ -135,9 +133,8 @@ sudo tlp start
 sudo tlp start
 ```
 	
-## 13. DODATKOWE PACZKI I PROGRAMY
+## 13. USTAWIENIA I PODSTAWOWE NARZĘDZIA
 * inxi
-* neofetch
 * mc
 * git
 * bpytop
@@ -152,7 +149,8 @@ sudo tlp start
 * fonts-noto-color-emoji
 * thunar-archive-plugin
 * redshift-gtk
-* htop engrampa
+* htop
+* engrampa
 * eom
 * mpv
 * audacious
