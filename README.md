@@ -2,50 +2,79 @@
 
 ## WAŻNE PLIKI
 * fstab
-
-```/etc/fstab```
+```sh
+/etc/fstab
+```
 * sources list
-
-```/etc/apt/sources.list```
+```sh
+/etc/apt/sources.list
+```
 * grub
-
-```/etc/default/grub```
+```sh
+/etc/default/grub
+```
 
 ## 1. AKTUALIZACJA I DEZAKTUALIZACJA
-```sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y && sudo apt install -y lsb-release```
+```sh
+sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y && sudo apt install -y lsb-release
+```
 	
 ## 2. FIRMWARE LINUX
-```sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree```
+```sh
+sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree
+```
 	
 ## 3. INNY FIRMWARE
-```sudo apt install firmware-realtek firmware-atheros```
+```sh
+sudo apt install firmware-realtek firmware-atheros
+```
 	
 ## 4. STEROWNIKI KARTY GRAFICZNEJ
 * NVIDIA
 
-```sudo apt install nvidia-detect```
+```sh
+sudo apt install nvidia-detect
+```
 
-```sudo nvidia-detect```
+```sh
+sudo nvidia-detect
+```
 
-```sudo apt install nvidia-driver nvidia-settings```
+```sh
+sudo apt install nvidia-driver nvidia-settings
+```
 
   * AMD
 
-```sudo apt install libdrm-amdgpu1 xserver-xorg-video-amdgpu```
+```sh
+sudo apt install libdrm-amdgpu1 xserver-xorg-video-amdgpu
+```
 
-```sudo apt install mesa-vulkan-drivers libvulkan1 vulkan-tools vulkan-validationlayers```
+```sh
+sudo apt install mesa-vulkan-drivers libvulkan1 vulkan-tools vulkan-validationlayers
+```
 		
 ## 5. FIRMWARE BROADCOM
-```sudo apt install broadcom-sta-dkms broadcom-sta-common firmware-brcm80211 firmware-iwlwifi```
+```sh
+sudo apt install broadcom-sta-dkms broadcom-sta-common firmware-brcm80211 firmware-iwlwifi
+```
 	
 ## 6. BLUETOOTH
-```sudo apt install bluetooth bluez bluez-firmware bluez-cups bluez-tools firmware-iwlwifi blueman```
+```sh
+sudo apt install bluetooth bluez bluez-firmware bluez-cups bluez-tools firmware-iwlwifi blueman
+```
 
-```sudo systemctl enable bluetooth```
+```sh
+sudo systemctl enable bluetooth
+```
 
-```sudo systemctl start bluetooth```
+```sh
+sudo systemctl start bluetooth
+```
 
-```sudo vim /etc/bluetooth/main.conf```
+```sh
+sudo vim /etc/bluetooth/main.conf
+```
 	
 ## 7. MIKROKOD DO PROCESORÓW (SYSTEM AUTOMATYCZNIE INSTALUJE PODCZAS STANDARODWEJ INSTALACJI)
 * INTEL
@@ -180,14 +209,23 @@ sudo apt remove exfalso quodlibet
 ```
 	
 ## 21. KOMENDY APT USUWANIE
-```sudo apt remove package``` - usuwanie danego pakietu
-
-```sudo apt autoremove``` - usuwanie nieużywanych pakietów
-
-```sudo apt autoclean``` - czyszczenie po instalacji
+* usuwanie danego pakietu
+```sh
+sudo apt remove package
+```
+* usuwanie nieużywanych pakietów
+```sh
+sudo apt autoremove
+``` 
+* czyszczenie po instalacji
+```sh
+sudo apt autoclean
+```
 	
 ## 22. DODANIE REPOZYTORIUM NON-FREE I CONTRIB
-```sudo apt install software-properties-common -y```
+```sh
+sudo apt install software-properties-common -y
+```
 
 ```sh
 sudo apt-add-repository contrib non-free
