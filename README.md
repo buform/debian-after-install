@@ -186,6 +186,10 @@ sudo apt install flatpak
 ```sh
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
+Jeśli masz środowisko GNOME to:
+```sh
+sudo apt install gnome-software-plugin-flatpak
+```
 	
 ## 18. ARDUINO BRAK ZEZWOLENIA NA PORT
 ```sh
@@ -260,3 +264,6 @@ lon=-0.70
 
 ## 25. WINE
 https://wine.htmlvalidator.com/install-wine-on-debian-12.html
+
+## 26. SPOTIFY
+https://www.spotify.com/pl/download/linux/
