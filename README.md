@@ -134,34 +134,16 @@ sudo tlp start
 ```
 	
 ## 13. USTAWIENIA I PODSTAWOWE NARZĘDZIA
-* inxi
-* mc
-* git
-* bpytop
-* bat
-* lightdm-gtk-greeter-settings
-* mugshot
-* gufw
-* menulibre
-* cmatrix
-* gvfs-backends
-* cifs-utils
-* fonts-noto-color-emoji
-* thunar-archive-plugin
-* redshift-gtk
-* htop
-* engrampa
-* eom
-* mpv
-* audacious
-* krita
-* geany
-* kolourpaint
-* net-tools
-* wireless-tools
-* atril
-* xfce4-goodies
-	
+```
+sudo apt install mc inxi git htop bpytop bat mughsot menulibre cmatrix lightdm-gtk-greeter-settings fonts-noto-color-emoji thunar-archive-plugin cifs-utils gvfs-backends wireless-tools net-tools redshift-gtk
+```
+
+* gufw - zapora sieciowa
+* mpv - odtwarzacz mulitmedialny
+* audacious - odtwarzacz muzyki
+* geany - odpowiednik Notepad++
+* kolourpaint - odpowiednik Paint
+
 ## 14. DRUKARKA HP STEROWNIKI
  * hplip
  * hplip-gui
