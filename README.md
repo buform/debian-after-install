@@ -143,6 +143,7 @@ sudo apt install mc inxi git htop bpytop bat mughsot menulibre cmatrix lightdm-g
 * audacious - odtwarzacz muzyki
 * geany - odpowiednik Notepad++
 * kolourpaint - odpowiednik Paint
+* geepie - przeglądarka plików graficznych
 
 ## 14. DRUKARKA HP STEROWNIKI
  * hplip
@@ -249,3 +250,10 @@ https://wine.htmlvalidator.com/install-wine-on-debian-12.html
 
 ## 26. SPOTIFY
 https://www.spotify.com/pl/download/linux/
+
+## 27. INNE OPROGRAMOWANIE
+* gnumeric
+* claws-mail
+* pidgin
+* catfish
+* asunder
