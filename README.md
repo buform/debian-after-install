@@ -1,5 +1,9 @@
 # STAN NA WERSJE: DEBIAN/GNU BOOKWORM 12 XFCE
 
+## WAŻNE LINKI
+*oficjalna strona Debian GNU/LINUX
+https://www.debian.org/
+
 ## WAŻNE PLIKI
 * fstab
 ```sh
