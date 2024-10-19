@@ -105,7 +105,19 @@ sudo dpkg --add-architecture i386
 	
 ## 10. KODEKI
 ```sh
-sudo apt install ffmpeg rar unrar libavcodec-extra ttf-mscorefonts-installer
+ffmpeg
+```
+
+```sh
+rar unrar
+```
+
+```sh
+libavcodec-extra
+```
+
+```sh
+ttf-mscorefonts-installer
 ```
 	
 ## 11. GRUB
@@ -134,16 +146,25 @@ sudo tlp start
 ```
 	
 ## 13. USTAWIENIA I PODSTAWOWE NARZĘDZIA
-```
-sudo apt install mc inxi git htop bpytop bat mughsot menulibre cmatrix lightdm-gtk-greeter-settings fonts-noto-color-emoji thunar-archive-plugin cifs-utils gvfs-backends wireless-tools net-tools redshift-gtk
-```
-
 * gufw - zapora sieciowa
 * mpv - odtwarzacz mulitmedialny
 * audacious - odtwarzacz muzyki
 * geany - odpowiednik Notepad++
 * kolourpaint - odpowiednik Paint
 * geepie - przeglądarka plików graficznych
+* mc - terminalowy eksplorator plików
+* git - narzędzie do klonowania repozytoriów GIT
+* mugshot i menulibre - narzędzia do Whiskermenu
+* inix - terminalowe narzędzie do odczytywania podzespołów komputera
+* cmatrix - matrix
+* fonts-noto-color-emoji - jak nie działają czcionki w Discord
+* redshift-gtk - ochrona wzroku
+* wireless-tools i net-tools - narzędzia do obłusgi sieci (terminal)
+* lightdm-gtk-greeter-settings - ustawienia LighDM GTK GREETER
+* htop - terminalowy menedżer zadań
+* bpytop - extra terminalowy menedżer zadań
+* bat - jakiś tam zamiennik git, może się przydać
+* cifs-utils gvfs-backends  - dodatki sieciowe do Thunar
 
 ## 14. DRUKARKA HP STEROWNIKI
  * hplip
@@ -156,6 +177,7 @@ sudo apt install mc inxi git htop bpytop bat mughsot menulibre cmatrix lightdm-g
 * xfce4-systemload-plugin
 * xfce4-battery-plugin
 * xfce4-power-plugin
+* thunar-archive-plugin
 	
 ## 16. WYGLĄD
 * papirus-icon-theme
