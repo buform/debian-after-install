@@ -2,6 +2,7 @@
 
 ## WAŻNE LINKI
 * oficjalna strona Debian GNU/LINUX
+
 https://www.debian.org/
 
 ## WAŻNE PLIKI
